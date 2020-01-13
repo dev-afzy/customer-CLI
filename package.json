@@ -1,0 +1,18 @@
+{
+  "name": "cli-nodejs",
+  "version": "1.0.0",
+  "description": "Customer CLI",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./command.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Afeesudheen",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^4.1.0",
+    "inquirer": "^7.0.3",
+    "mongoose": "^5.8.7"
+  }
+}
